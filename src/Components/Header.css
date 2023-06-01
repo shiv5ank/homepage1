@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
+
+.nav_container {
+    background-color: black;
+    overflow: hidden;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.nav-left {
+    font-family: 'Kalam', cursive;
+    float: left;
+    color: aliceblue;
+    padding-left: 20px;
+
+}
+
+.nav-menu{
+    float: right;
+    display: flex;
+    list-style: none;
+    padding-top: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    color: aliceblue;
+    justify-content: space-evenly;
+}
+
+.nav-menu a{
+    text-align: center;
+    justify-content: space-between;
+    padding-right: 25px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+a:hover {
+    border-radius: 8px;
+    padding: 15px 15px 15px 15px;
+    background-color: pink;
+    color: black;
+}
